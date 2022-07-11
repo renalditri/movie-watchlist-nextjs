@@ -16,7 +16,7 @@ json-server --watch db.json --port 3004
 ```
 Di terminal yang berbeda, lalu jalankan aplikasi menggunakan command
 ```sh
-npm start
+npm run dev
 ```
 
 ## Data Login
