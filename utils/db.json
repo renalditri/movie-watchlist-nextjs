@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "user": "Mark",
+      "password": "1234",
+      "email": "mail.com"
+    }
+  ],
+  "saved": [
+    {
+      "movies": [
+        {
+          "id": 626735,
+          "title": "Dog",
+          "poster_path": "/rkpLvPDe0ZE62buUS32exdNr7zD.jpg",
+          "watched": false,
+          "vote_average": 7.5,
+          "vote_count": 543
+        },
+        {
+          "id": 628878,
+          "title": "Panama",
+          "poster_path": "/u9DzgsmssidygWuORgYzhi317vj.jpg",
+          "watched": true,
+          "vote_average": 6.1,
+          "vote_count": 58
+        },
+        {
+          "id": 526896,
+          "title": "Morbius",
+          "poster_path": "/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
+          "watched": false,
+          "vote_average": 6.5,
+          "vote_count": 1949
+        },
+        {
+          "id": 299536,
+          "title": "Avengers: Infinity War",
+          "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+          "watched": false,
+          "vote_average": 8.3,
+          "vote_count": 24878
+        },
+        {
+          "id": 299534,
+          "title": "Avengers: Endgame",
+          "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+          "watched": true,
+          "vote_average": 8.3,
+          "vote_count": 21309
+        },
+        {
+          "id": 198663,
+          "title": "The Maze Runner",
+          "poster_path": "/ode14q7WtDugFDp78fo9lCsmay9.jpg",
+          "watched": false,
+          "vote_average": 7.2,
+          "vote_count": 14732
+        },
+        {
+          "id": 294254,
+          "title": "Maze Runner: The Scorch Trials",
+          "poster_path": "/mYw7ZyejqSCPFlrT2jHZOESZDU3.jpg",
+          "watched": false,
+          "vote_average": 6.7,
+          "vote_count": 8946
+        },
+        {
+          "id": 299534,
+          "title": "Avengers: Endgame",
+          "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+          "watched": false,
+          "vote_average": 8.3,
+          "vote_count": 21338
+        }
+      ],
+      "id": "Mark"
+    }
+  ]
+}

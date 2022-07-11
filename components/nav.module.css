@@ -1,0 +1,67 @@
+.nav {
+  @apply flex items-center justify-between flex-wrap bg-black text-sky-400 px-5 py-4 md:px-6 md:py-3 fixed top-0 left-0 right-0 font-semibold z-10
+}
+
+.btn_login {
+  @apply inline-block font-semibold text-sm px-4 py-2 leading-none border rounded text-sky-400 border-sky-400 hover:border-transparent hover:text-sky-500 hover:bg-white hidden md:inline-block
+}
+
+.btn_link {
+  @apply ml-3 hover:bg-sky-600 px-4 py-2 leading-none rounded mr-3 font-semibold hidden md:inline-block
+} 
+
+.btn_logout {
+  @apply inline-block font-semibold text-sm px-4 py-2 leading-none border rounded text-red-400 border-red-400 hover:border-transparent hover:text-red-500 hover:bg-white hidden md:inline-block
+}
+
+.user {
+  @apply mr-3 text-sm hidden md:inline-block
+}
+
+.input {
+  @apply shadow appearance-none border rounded w-3/4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:outline-2 focus:outline-blue-400 inline-block border-r-2 border-solid border-black 
+}
+
+.btn_search {
+  @apply w-1/4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded border-l-2 border-solid border-black inline-block
+}
+
+.mobile_nav_toggle {
+  @apply inline-block md:hidden text-center text-xl
+}
+
+.search_container {
+  @apply hidden md:inline-block
+}
+
+.mobile_nav {
+  @apply absolute inset-x-0 top-0 mt-14 bg-black pt-1 rounded block md:hidden transition ease-in-out delay-300 translate-x-full
+}
+
+.mobile_nav_show {
+  @apply translate-x-0
+}
+
+.mobile_nav_search_container {
+  @apply px-3
+}
+
+.mobile_nav_input {
+  @apply shadow appearance-none border rounded w-3/4 py-1 px-2 text-gray-700 leading-tight focus:outline-none focus:outline-2 focus:outline-blue-400 inline-block border-r-2 border-solid border-black 
+}
+
+.mobile_nav_btn_search {
+  @apply w-1/4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded border-l-2 border-solid border-black inline-block
+}
+
+.mobile_nav_saved {
+  @apply py-2 hover:bg-neutral-900 active:bg-neutral-900 px-3 mt-2 block font-bold
+}
+
+.mobile_nav_btn_login {
+  @apply py-2 mb-2 hover:bg-neutral-900 active:bg-neutral-900 px-3 block font-bold
+}
+
+.mobile_nav_btn_logout {
+  @apply py-2 hover:bg-neutral-900 active:bg-neutral-900 px-3 mb-2 block font-bold text-rose-600 w-full text-left
+}

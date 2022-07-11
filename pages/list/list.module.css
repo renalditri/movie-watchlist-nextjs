@@ -1,0 +1,7 @@
+.section {
+  @apply container mb-1 p-3 
+}
+
+.heading { 
+  @apply text-3xl font-bold text-gray-900 text-center py-3 mb-2 border-y border-stone-400
+}
